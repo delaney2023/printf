@@ -5,9 +5,9 @@
 /**
  * print_char - Prints a char
  * @types: List a of arguments
+ * @width: Width
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
- * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -144,12 +144,12 @@ int print_int(va_list types, char buffer[],
 /************************* PRINT BINARY *************************/
 /**
  * print_binary - Prints an unsigned number
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @types: List of arguments.
+ * @buffer: Buffer of  arrays to handle print.
+ * @flags: Calculates active flags.
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier.
  * Return: Numbers of char printed.
  */
 int print_binary(va_list types, char buffer[],
